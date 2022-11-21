@@ -15,10 +15,11 @@ header {
 article {
   float: center;
   text-align: center;
-  background-color: rgba(206, 153, 153, 0.9);
+  background-color: rgba(13, 13, 14, 0.8);
   font-size: 17px;
   padding-left: 1px;
   border: 2px solid white;
+ 
   margin: 5px;
 }
 table {
