@@ -43,6 +43,7 @@ section {
   
   padding-bottom: 10px;
 }
+
 aside {
   width: 20%;
   float: left;
@@ -68,7 +69,7 @@ aside {
   text-align: center;
 }
 .menu li a:hover {
-  background-color: darkturquoise;
+  background-color: rgba(119, 199, 219, 0.9);
 }
 .contexto {
   display: flex;
@@ -84,7 +85,14 @@ aside {
   padding: 5px;
 
 }
-.contenedor {
+footer { 
+  background-color: rgba(119, 199, 219, 0.9);
+
+
+  
+  text-align: center;  
+  
+}.contenedor {
   display: flex;
   margin-left: 95px;
   margin-right: 95px;
