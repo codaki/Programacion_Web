@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <title>HELP</title>
+               
+</head>
+<body >    
+    <header>        
+        <h1 align="center" style="font-size:50px">HELP <img src="img/Logo.jpg" width="200" align="right"></h1>  
+        <p align="center"><font size="5" >Página Ayuda Estudiantil</p>                        
+        <br>                                
+        <ul class="menu">
+            <li> <a href="#">Inicio </a></li>
+            <li> <a href="#">Preguntas y Respuestas</a></li>
+            <li> <a href="#">Ayuda</a></li>
+            <li> <a href="#">¿Quiénes somos?</a></li>
+        </ul>
+</header>
+  <div class="contenedor">
+        <section><center>
+        </center>
+
+        <div align="center">
+          <div class="formulario">
+            <h1>Registro de Cuenta</h1><br>
+            <img src="img/logoespe.png" width="350" height="100" alt="Logoespe">
+            <form action="Registro.php" name="Registro" method="Post">
+                <label for="Nombre"><br>Nombre:</label><br><input size="30" type="text" id="Nombre" name="Nombre" placeholder="Ingrese su nombre." ><br>
+                <label for="Apellido"><br>Apellido:</label><br><input size="30" type="text" id="Apellido" name="Apellido" placeholder="Ingrese su Apellido." ><br>
+                <label for="dni"><br>Dni:</label><br><input  size="30"type="number" id="dni" name="dni" placeholder="Ingrese su dni."><br>
+                <label for="Edad"><br>Edad:</label><br><input  size="10"type="number" id="Edad" name="Edad" placeholder="Ingrese su edad."><br>
+                <label for="email"><br>Correo Electrónico:</label><br><input  size="30" type="email" id="email" name="email" placeholder="Ingrese su email."><br>
+                <label for="pwd"><br>Contraseña:</label><br><input type="password" id="pwd" name="pwd" placeholder="Ingrese su contraseña." size="20" height="50"><br><br>
+                <input type="reset" value="Resetear" class="boton"><br>
+                <input type="submit" value="Enviar" class="boton"><br>
+            </form>
+        </div>
+        </div>
+       
+        
+	</section>
+        <aside>
+            <img src="img/estudiantes.jpg" width="350" height="828" alt="Logoespe" align="center">
+        </aside>
+
+      
+
+    </div>
+    
+    <footer>
+        <div class="pie">
+            
+            <br><img src="img/ubicacion.png"  width="70" height="70">
+            <p>Universidad de las Fuerzas Armadas</p>
+            <h3>ESPE</h3>
+        </div>
+        <div class="pie">      
+            <img src="img/carta.png" border="0" width="70" height="70">
+            <p>HELP.AyudaEstudiantil@gmail.com</p>
+            <p>cdiza5@espe.edu.ec</p>
+        </div>
+        <div class="pie">
+            <img src="img/llamada-telefonica.png" border="0" width="70" height="70">
+            <p>099 504 7657 - 096 963 6094</p>
+            <p>099 273 8381 - 099 547 4515</p>
+            <p>093 993 0962 </p>
+           
+        </div>
+            
+   </footer>  
+   <footer>
+    <div class="pie">
+    <p>© 2022 - Todos los derechos reservados</p>
+    </div>
+    </footer>
+</body>
+</html>
+        
