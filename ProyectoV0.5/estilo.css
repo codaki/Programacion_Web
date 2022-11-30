@@ -26,10 +26,6 @@ nav {
   border: 2px solid black;
   padding: 2px;
 }
-th,td {
-  border: 1px solid black;
-  font-size: 20px;
-}
 section {
   width: 80%;
   float: left;
@@ -37,7 +33,6 @@ section {
   
   padding-bottom: 10px;
 }
-
 aside {
   width: 20%;
   float: left;
@@ -83,7 +78,7 @@ aside {
 
 }
 footer { 
-    display: flex;
+  display: flex;
   clear: both;
   float:center;
   background-color: rgba(119, 199, 219, 0.9);
@@ -91,14 +86,12 @@ footer {
   margin-left: 95px;
   margin-right: 95px;
   height: auto;
-  border: 2px solid white;
   border-bottom: 0;
 }
 .contenedor {
   display: flex;
   margin-left: 95px;
   margin-right: 95px;
-  border: 2px solid white;
 }
 .Preguntas {
   padding: 15px;
@@ -107,8 +100,7 @@ footer {
     padding: 15px;
     height: 10%;
     width: 100%;
-    
-    font-size: 17px;
+    font-size: 12px;
 }
 .formulario{
   border: 2px solid black;
