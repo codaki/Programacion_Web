@@ -192,8 +192,20 @@ footer {
 .descripcion{
   color: #000000;
   font-weight: 300 ;
+  text-align: justify;
 }
 
 .derecha{
   float:right;
+}
+.titulo{
+  width: 90%;
+  color:aliceblue;
+  clear: both;
+  float:center;
+  text-align: center;
+  background-color: rgba(13, 13, 14, 1);
+  font-size: 50px;
+  height: 70px;
+  margin: 5px;
 }
