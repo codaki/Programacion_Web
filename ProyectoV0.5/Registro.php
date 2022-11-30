@@ -14,10 +14,10 @@
         <p align="center"><font size="5" >Página Ayuda Estudiantil</p>                        
         <br>                                
         <ul class="menu">
-            <li> <a href="#">Inicio </a></li>
-            <li> <a href="#">Preguntas y Respuestas</a></li>
-            <li> <a href="#">Ayuda</a></li>
-            <li> <a href="#">¿Quiénes somos?</a></li>
+            <li> <a href="./Inicio.html">Inicio </a></li>
+            <li> <a href="./Preguntas y Respuestas.html">Preguntas y Respuestas</a></li>
+            <li> <a href="./Registro.html">Registro</a></li>
+            <li> <a href="./QuienesSomos.html">¿Quiénes somos?</a></li>
         </ul>
 </header>
   <div class="contenedor">
@@ -34,21 +34,22 @@
         $Edad=$_POST['Edad'];
         $email=$_POST['email'];
         $pwd=$_POST['pwd'];
-        echo "<table style='background-color:sky blue'>";
+        echo "<p>Se ha realizado un registro exitoso</p>";
+        echo "<table style='background-color:sky blue; text-align:center'>";
         echo "<tr>";
-        echo "<td>Nombre</td>";
+        echo "<td>Nombre:</td>";
         echo "<td>$Nombre</td>";
         echo "<tr>";
-        echo "<td>Apellido</td>";
+        echo "<td>Apellido:</td>";
         echo "<td>$Apellido</td>";
         echo "<tr>";
-        echo "<td>dni</td>";
+        echo "<td>Cédula:</td>";
         echo "<td>$dni</td>";
         echo "<tr>";
-        echo "<td>Edad</td>";
+        echo "<td>Edad:</td>";
         echo "<td>$Edad</td>";
         echo "<tr>";
-        echo "<td>email</td>";
+        echo "<td>email:</td>";
         echo "<td>$email</td>";
         echo "</table>";
         ?>
@@ -58,7 +59,8 @@
         
 	</section>
         <aside>
-        <img src="img/estudiantes.jpg" width="350" height="828" alt="Logoespe" align="center">
+            <br><br><br><br><br>
+        <img src="img/estudiantes.jpg" width="300" height="270" alt="Logoespe" align="center">
     </div>
     
     <footer>
