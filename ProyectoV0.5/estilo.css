@@ -77,8 +77,15 @@ aside {
   padding: 5px;
 
 }
-.tematicas{ padding:20px;
-border: 1px solid black;}
+.tematicas{ 
+  padding:20px;
+  border: 1px solid black;
+  }
+  .tematicas th { background-color: aliceblue;}
+.tematicas th:hover{
+  background-color:rgba(13, 13, 14, 0.8);
+  color:white;
+}
 footer { 
   display: flex;
   clear: both;
