@@ -79,6 +79,8 @@ aside {
   padding: 5px;
 
 }
+.tematicas{ padding:20px;
+border: 1px solid black;}
 footer { 
     display: flex;
   clear: both;
@@ -100,6 +102,11 @@ footer {
 .Preguntas {
   padding: 15px;
 }
+.Preguntas tr:hover{
+ background-color:rgba(13, 13, 14, 0.8);
+ color:white;
+}
+
 .pie{
     padding: 15px;
     height: 10%;
