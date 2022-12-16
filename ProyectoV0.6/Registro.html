@@ -8,7 +8,7 @@
     <title>HELP</title>
                
 </head>
-<body >    
+<body>    
     <header>        
         <h1 align="center" style="font-size:50px">HELP <img src="img/Logo.jpg" width="200" align="right"></h1>  
         <p align="center"><font size="5" >Página Ayuda Estudiantil</p>                        
@@ -20,38 +20,30 @@
             <li> <a href="./QuienesSomos.html">¿Quiénes somos?</a></li>
         </ul>
 </header>
-  <div class="contenedor">
-        <section><center>
-        </center>
-
-        <div align="center">
-          <div class="formulario">
-            <h1>Registro de Cuenta</h1><br>
-            <img src="./img/logoespe.png" width="350" height="100" alt="Logoespe">
+<div class="login">
+    <div class="login-screen">
+        <div class="app-title">
+            <img src="img/usuario-de-perfil.png" width="70" align="center">
+        </div>
+        <br>
+        <div class="login-form">
             <form action="Registro.php" name="Registro" method="Post">
-                <label for="Nombre"><br>Nombre:</label><br><input size="30" type="text" id="Nombre" name="Nombre" placeholder="Ingrese su nombre." ><br>
-                <label for="Apellido"><br>Apellido:</label><br><input size="30" type="text" id="Apellido" name="Apellido" placeholder="Ingrese su Apellido." ><br>
-                <label for="dni"><br>Cédula:</label><br><input  size="30"type="number" id="dni" name="dni" placeholder="Ingrese su cédula."><br>
-                <label for="Edad"><br>Edad:</label><br><input  size="10"type="number" id="Edad" name="Edad" placeholder="Ingrese su edad."><br>
-                <label for="email"><br>Correo Electrónico:</label><br><input  size="30" type="email" id="email" name="email" placeholder="Ingrese su email."><br>
-                <label for="pwd"><br>Contraseña:</label><br><input type="password" id="pwd" name="pwd" placeholder="Ingrese su contraseña." size="20" height="50"><br><br>
-                <input type="reset" value="Resetear" class="boton"><br>
-                <input type="submit" value="Enviar" class="boton"><br>
-            </form>
-        </div>
-        </div>
-       
-        
-	</section>
-        <aside>
-            <br><br><br><br><br><br><br><br><br><br><br><br>
-            <img src="img/estudiantes.jpg" width="300" height="270" alt="Logoespe" align="center">
-        </aside>
+            <div class="control-group">
+            <input size="30" type="text" value="" placeholder="Nombre" id="Nombre" name="Nombre">
+            <input size="30" type="text" value="" placeholder="apellido" id="Apellido" name="Apellido">
+            </div>
 
-      
+            <div class="control-group">
+            <input type="password" class="login-field" value="" placeholder="contraseña" id="password" name="password">
+            </div>
 
+            <input type="submit" value="Enviar" class="btn btn-primary btn-large btn-block">
+        </form>
+        </div>
     </div>
-    
+</div>
+</body>
+
     <footer>
         <div class="pie">
             
