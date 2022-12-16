@@ -17,6 +17,7 @@
         <ul class="menu">
             <li> <a href="./Inicio.html">Inicio </a></li>
             <li> <a href="./Preguntas y Respuestas.html">Preguntas y Respuestas</a></li>
+            <li> <a href="./Respuestas.html">Respuestas</a></li>
             <li> <a href="./Registro.html">Registro</a></li>
             <li> <a href="./QuienesSomos.html">¿Quiénes somos?</a></li>
             
