@@ -70,6 +70,28 @@ aside {
   padding: 5px;
   margin: 10px;
 }
+.Respuestas {
+  padding: 15px;
+}
+.Respuestas table{
+  border-radius: 1em;
+  width:90%; 
+  background-color: aliceblue; 
+  text-align:center;
+  border:2px solid black;
+  border-collapse: collapse;
+  padding:30px;
+  overflow: hidden;
+  font-size:25px;
+}
+.Respuestas tr,th,td{
+  border-bottom: 2px solid black; 
+}
+
+.Respuestas tr:hover{
+ background-color:rgba(13, 13, 14, 0.8);
+ color:white;
+}
 .busqueda {
   padding: 15px;
 }
