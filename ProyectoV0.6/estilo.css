@@ -175,6 +175,15 @@ div.Preguntas tr:hover{
  background-color:rgba(13, 13, 14, 0.8);
  color:white;
 }
+
+#idunico{
+  background-color: rgba(119, 199, 219, 0.9);
+width: 90%;
+max-width: 100%;
+padding: 0;
+margin: auto;
+}
+
 div.tabla{
   border: 3px solid black;
   border-collapse: collapse;
