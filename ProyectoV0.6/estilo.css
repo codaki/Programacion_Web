@@ -44,6 +44,38 @@ aside {
   border-top: 0;
   border-right: 0;
 }
+/* ---------- ASIDE RESPUESTAS---------- */
+ul.Materias {
+  background-color: black;
+  list-style-position: outside;
+  list-style-type:square; 
+  list-style-image: url('img/libro1.png');
+
+}
+ul.Recorridos {
+  background-color: black;
+  list-style-position: outside;
+  list-style-type:square; 
+  list-style-image: url('img/buseta.png');
+
+}
+ul.Tercera {
+  background-color: black;
+  list-style-position: outside;
+  list-style-type:square; 
+}
+ol.Certificado {
+  background-color: black;
+  list-style-position: outside;
+  list-style-type:upper-roman; 
+}
+ol.Ubicacion {
+  background-color: black;
+  list-style-position: outside;
+  list-style-type:decimal; 
+}
+
+/* ---------- FIN ASIDE RESPUESTAS ---------- */
 
 ul.menu {
   list-style: none;
