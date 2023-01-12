@@ -8,21 +8,23 @@ body {
 }
 header {
   background-color: rgba(119, 199, 219, 0.9);
-  
-  max-width: 100%;
-  padding: 0;
-  margin: auto;
-  margin-left: 9%;
-  margin-right: 9%;
+  margin-left: 4%;
+  margin-right: 4%; 
+}
+header img{
+  height:8.5vw;
+  width: auto;
+  display:flex;
+  float:right;
 }
 article {
   float: center;
-  text-align: center;
+  text-align: left;
   background-color: rgba(13, 13, 14, 0.8);
   font-size: 0.9vw;
-  padding-left: 1px;
-  border: 2px solid white;
-  margin: 5px;
+  padding: .3vw;
+  border: 0.15vw solid white;
+  margin: 0.3vw;
 }
 nav {
   margin: 10px;
@@ -55,6 +57,9 @@ ul.Materias {
   list-style-image: url('img/libro1.png');
 
 }
+ul.Materias li::marker{
+  font-size: 1vw;
+}
 ul.Recorridos {
   background-color: black;
   list-style-position: outside;
@@ -62,10 +67,18 @@ ul.Recorridos {
   list-style-image: url('img/buseta.png');
 
 }
+ul.Recorridos li::marker{
+  font-size: 1vw;
+}
 ul.Tercera {
+  align-content: left;
   background-color: black;
   list-style-position: outside;
-  list-style-type:square; 
+  list-style-type:square;
+  width:100%; 
+}
+ul.Tercera li::marker{
+  font-size: 1vw;
 }
 ol.Certificado {
   background-color: black;
@@ -82,7 +95,6 @@ ol.Ubicacion {
 
 ul.menu {
   list-style: none;
-  padding: 0;
   background-color: rgba(13, 13, 14, 0.861);
   margin: auto;
   font-size:1.3vw;
@@ -176,7 +188,6 @@ div.SelecPaginas td:hover{
 div.tematicas{ 
   padding:auto;
   width:80%;
-  
   font-size: 1.3vw;
   }
   div.tematicas table{
@@ -185,7 +196,8 @@ div.tematicas{
 div.tematicas th { 
   background-color: aliceblue;
   border:1px solid black;
-  border-radius:15px;
+  width:3vw;
+  border-radius:1vw;
   }
 div.tematicas th:hover{
   background-color:rgba(13, 13, 14, 0.8);
@@ -197,19 +209,32 @@ footer {
   float:center;
   background-color: rgba(119, 199, 219, 0.9);
   text-align: center;  
-  margin-left: 9%;
-  margin-right: 9%;
+  margin-left: 4%;
+  margin-right: 4%;
   height: 50%;
   border-bottom: 0;
   
 }
 div.contenedor {
   display: flex;
-  margin-left: 9%;
-  margin-right: 9%;
+  margin-left: 4%;
+  margin-right: 4%;
 }
 div.Preguntas {
   padding: 2%;
+}
+div.Preguntas table{
+  width: 90%;
+}
+div.Preguntas tr{
+  height: 3vw;
+  text-align:center;
+  border:0.15vw solid black;
+  padding:30px;
+ 
+}
+div.Preguntas th{
+  height: 3vw;
 }
 div.Preguntas tr:hover{
  background-color:rgba(13, 13, 14, 0.8);
@@ -217,10 +242,8 @@ div.Preguntas tr:hover{
 }
 
 #idunico{
-width: 90%;
-max-width: 100%;
-padding: 0;
-margin: auto;
+font-size:1.3vw;
+
 }
 
 div.tabla{
