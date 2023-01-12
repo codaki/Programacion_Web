@@ -1,0 +1,430 @@
+body {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-image: url(img/Fondo.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+header {
+  background-color: rgba(119, 199, 219, 0.9);
+  width: 90%;
+  max-width: 100%;
+  padding: 0;
+  margin: auto;
+}
+article {
+  float: center;
+  text-align: center;
+  background-color: rgba(13, 13, 14, 0.8);
+  font-size: 17px;
+  padding-left: 1px;
+  border: 2px solid white;
+  margin: 5px;
+}
+nav {
+  margin: 10px;
+  border: 2px solid black;
+  padding: 2px;
+}
+section {
+  width: 80%;
+  float: left;
+ 
+ background: linear-gradient( rgba(31, 31, 74, 0.734) 30%,rgba(255, 255, 255, 0.7),rgba(119, 199, 219, 0.9) 90%);
+  padding-bottom: 10px;
+  border-bottom: 2px solid white;
+}
+aside {
+  width: 20%;
+  height:20 vh;
+  background: linear-gradient( rgba(31, 31, 74, 0.734) 30%,rgba(255, 255, 255, 0.7),rgba(119, 199, 219, 0.9) 90%);
+  border:2px solid white;
+  text-align: center;
+  border-bottom: 2px solid white;
+  border-top: 0;
+  border-right: 0;
+}
+/* ---------- ASIDE RESPUESTAS---------- */
+ul.Materias {
+  background-color: black;
+  list-style-position: outside;
+  list-style-type:square; 
+  list-style-image: url('img/libro1.png');
+
+}
+ul.Recorridos {
+  background-color: black;
+  list-style-position: outside;
+  list-style-type:square; 
+  list-style-image: url('img/buseta.png');
+
+}
+ul.Tercera {
+  background-color: black;
+  list-style-position: outside;
+  list-style-type:square; 
+}
+ol.Certificado {
+  background-color: black;
+  list-style-position: outside;
+  list-style-type:upper-roman; 
+}
+ol.Ubicacion {
+  background-color: black;
+  list-style-position: outside;
+  list-style-type:decimal; 
+}
+
+/* ---------- FIN ASIDE RESPUESTAS ---------- */
+
+ul.menu {
+  list-style: none;
+  padding: 0;
+  background-color: rgba(13, 13, 14, 0.861);
+
+  margin: auto;
+}
+ul.menu li a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  display: block;
+}
+ul.menu li {
+  display: inline-block;
+  text-align: center;
+}
+ul.menu li a:hover {
+  background-color: rgba(119, 199, 219, 0.9);
+}
+div.contexto {
+  display: flex;
+  border: 1px solid black;
+  background-color: aliceblue;
+  padding: 5px;
+  margin: 10px;
+}
+div.Respuestas {
+  padding: 15px;
+}
+div.Respuestas table{
+  border-radius: 1em;
+  width:90%; 
+  background-color: aliceblue; 
+  text-align:center;
+  border:2px solid black;
+  border-collapse: collapse;
+  padding:30px;
+  overflow: hidden;
+  font-size:25px;
+}
+div.Respuestas tr,th,td{
+  border-bottom: 2px solid black; 
+}
+
+div.Respuestas tr:hover{
+ background-color:rgba(13, 13, 14, 0.8);
+ color:white;
+}
+div.busqueda {
+  padding: 15px;
+}
+div.Respuestas {
+  padding: 15px;
+}
+div.Respuestas table{
+  border-radius: 1em;
+  width:90%; 
+  background-color: aliceblue; 
+  text-align:center;
+  border:2px solid black;
+  border-collapse: collapse;
+  padding:30px;
+  overflow: hidden;
+  font-size:25px;
+}
+div.Respuestas tr,th,td{
+  border-bottom: 2px solid black; 
+}
+
+div.Respuestas tr:hover{
+ background-color:rgba(13, 13, 14, 0.8);
+ color:white;
+}
+div.SelecPaginas {
+  padding: 5px;
+
+}
+
+div.SelecPaginas table{
+   border-spacing: 5px;
+}
+div.SelecPaginas td{
+  padding: 3px;
+  background-color:aliceblue;
+  border: 1px solid black;
+}
+div.SelecPaginas td:hover{
+  background-color:rgba(13, 13, 14, 0.8);
+  color:white;
+}
+div.tematicas{ 
+  padding:10px;
+
+  }
+  div.tematicas table{
+    border-spacing: 5px;
+  }
+div.tematicas th { 
+  background-color: aliceblue;
+  border:1px solid black;
+  border-radius:15px;
+  }
+div.tematicas th:hover{
+  background-color:rgba(13, 13, 14, 0.8);
+  color:white;
+}
+footer { 
+  display: flex;
+  clear: both;
+  float:center;
+  background-color: rgba(119, 199, 219, 0.9);
+  text-align: center;  
+  margin-left: 95px;
+  margin-right: 95px;
+  height: auto;
+  border-bottom: 0;
+}
+div.contenedor {
+  display: flex;
+  margin-left: 95px;
+  margin-right: 95px;
+}
+div.Preguntas {
+  padding: 15px;
+}
+div.Preguntas tr:hover{
+ background-color:rgba(13, 13, 14, 0.8);
+ color:white;
+}
+
+#idunico{
+width: 90%;
+max-width: 100%;
+padding: 0;
+margin: auto;
+}
+
+div.tabla{
+  border: 3px solid black;
+  border-collapse: collapse;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding:5px;
+  margin:30px;
+  float: CENTER;
+  background-color:rgba(255,255,255,0.5);
+
+}
+div.pie{
+    padding: 15px;
+    height: 10%;
+    width: 100%;
+    font-size: 15px;
+}
+div.formulario{
+  border: 0px solid black;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding:30px;
+  margin:30px;
+  float: CENTER;
+  background-color:rgba(255,255,255,0.5);
+
+}
+.boton:hover {
+  background-color: rgba(119, 199, 219, 0.9);
+}
+
+
+div.contenido{
+  width: 100%;
+  float: left;
+  background-color: rgba(119, 199, 219, 0.9);
+  background: linear-gradient( rgba(31, 31, 74, 0.734) 30%,rgba(255, 255, 255, 0.7),rgba(119, 199, 219, 0.9) 90%);
+  padding-bottom: 10px;
+}
+
+div.centrar{
+  width: 80%;
+  height: auto;
+  overflow: hidden;
+
+  margin: auto;
+  text-align: center;
+ 
+  box-shadow:5px 8px 6px 8px ;
+   margin-bottom: 10px;
+   margin-top: 15px;
+  
+   padding-left: 10px;
+   padding-right: 10px;
+   
+
+}
+
+div.centrar#part2{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+div.izquierda, .derecha{
+  width: 49%;
+  height: auto; overflow: hidden;
+
+  display: inline-block;
+}
+div.centrar #sub2{
+  width:22%;
+}
+div.izquierda{
+  float: left; text-align: left;
+   display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h4.subtitulo{
+  background-color: rgba(255, 255, 255, 0.7);
+  color: #000000;
+  font-size: 30px;
+  width: 100%;
+}
+h1.titulo-principal{
+  background-color: rgba(255, 255, 255, 0.7);
+  color: rgb(0, 0, 0);
+  font-size: 60px;
+  text-align: center;
+  width: 200px;
+ 
+  
+}
+
+p.descripcion{
+  color: #000000;
+  font-weight: 300 ;
+  text-align: justify;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding:10px;
+
+}
+
+div.derecha{
+  float:right;
+}
+div.titulo{
+  width: 90%;
+  color:aliceblue;
+  clear: both;
+  float:center;
+  text-align: center;
+  background-color: rgba(13, 13, 14, 0.861);
+  font-size: 50px;
+  height: 70px;
+  margin: 5px;
+}
+
+div.degradado {
+  background: linear-gradient( rgba(255, 255, 255, 0.5),rgba(119, 199, 219, 0.9));
+  padding: 0px;
+  border-radius: 0px;
+  margin: 0px;
+}
+
+/* ---------- FORMULARIO ---------- */
+
+* {
+  box-sizing: border-box;
+  }
+  
+  *:focus {
+    outline: none;
+  }
+  
+  div.login {
+  margin: 20px auto;
+  width: 300px;
+  }
+  div.login-screen {
+  background-color: #FFF;
+  padding: 20px;
+  border-radius: 5px
+  }
+  
+  div.app-title {
+  text-align: center;
+  color: #777;
+  }
+  
+  div.login-form {
+  text-align: center;
+  }
+  div.control-group {
+  margin-bottom: 10px;
+  }
+  
+  input {
+  text-align: center;
+  background-color: #ECF0F1;
+  border: 2px solid transparent;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: 200;
+  padding: 10px 0;
+  width: 250px;
+  transition: border .5s;
+  }
+  
+  input:focus {
+  border: 2px solid #3498DB;
+  box-shadow: none;
+  }
+  
+  input.btn {
+    border: 2px solid transparent;
+    background: #3498DB;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 0;
+    text-decoration: none;
+    text-shadow: none;
+    border-radius: 3px;
+    box-shadow: none;
+    transition: 0.25s;
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+  }
+  
+  input.btn:hover {
+    background-color: #2980B9;
+  }
+  
+  input.login-link {
+    font-size: 12px;
+    color: #444;
+    display: block;
+    margin-top: 12px;
+  }
+input:out-of-range {
+  background-color: rgb(255, 51, 51);
+  color:white;
+}
