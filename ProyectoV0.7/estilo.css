@@ -45,45 +45,68 @@ footer img{
 }
 aside {
   width: 20%;
-  height:20 vh;
   background: linear-gradient( rgba(31, 31, 74, 0.734) 30%,rgba(255, 255, 255, 0.7),rgba(119, 199, 219, 0.9) 90%);
-  border:2px solid white;
+  border:0.2vw solid white;
   text-align: center;
-  border-bottom: 2px solid white;
+  border-bottom: 0.2vw solid white;
   border-top: 0;
   border-right: 0;
 }
+
+
 /* ---------- ASIDE RESPUESTAS---------- */
 ul.Materias {
   background-color: black;
-  list-style-position: outside;
-  list-style-type:square; 
-  list-style-image: url('img/libro1.png');
-
-}
-ul.Materias li::marker{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 1vw;
   font-size: 1vw;
+}
+ul.Materias li::before{
+   content: '  ';
+    display: inline-block;
+    height: 1.2vw;
+    width: 1.2vw;
+    background-size: cover;
+    background-image: url('./img/libro1.png');
+    background-repeat: no-repeat;
+    margin-right: 1vw;
+    background-position: center center;
+    vertical-align: middle;
+  
 }
 ul.Recorridos {
-  background-color: black;
-  list-style-position: outside;
-  list-style-type:square; 
-  list-style-image: url("img/buseta.png");
-
-}
-ul.Recorridos li::marker{
   font-size: 1vw;
+  background-color: black;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 1vw;
+ }
+ul.Recorridos li::before{
+   
+   content: '  ';
+    display: inline-block;
+    height: 1.2vw;
+    width: 1.2vw;
+    background-size: cover;
+    background-image: url('./img/buseta.png');
+    background-repeat: no-repeat;
+    margin-right: 1vw;
+    background-position: center center;
+    vertical-align: middle;
+      
 }
 ul.Tercera {
-  align-content: left;
   background-color: black;
-  list-style-position: outside;
-  list-style-type:square;
-  width:100%; 
-}
-ul.Tercera li::marker{
+  list-style-type: square;
+  margin: 0;
+  padding: 0;
+  padding-left: 3.5vw; 
   font-size: 1vw;
 }
+
 ol.Certificado {
   background-color: black;
   list-style-position: outside;
@@ -124,54 +147,42 @@ div.contexto {
   margin: 10px;
 }
 div.Respuestas {
-  padding: 15px;
+  padding: 2%;
 }
 div.Respuestas table{
-  border-radius: 1em;
   width:90%; 
-  background-color: aliceblue; 
-  text-align:center;
-  border:2px solid black;
-  border-collapse: collapse;
-  padding:30px;
-  overflow: hidden;
-  font-size:25px;
+  font-size:1.4vw;
+  border-radius: 1vw;    
 }
 div.Respuestas tr,th,td{
-  border-bottom: 2px solid black; 
+  height: 3vw;  
+  border:2px solid black;
+  border-collapse: collapse;  
+  overflow: hidden;
 }
 
 div.Respuestas tr:hover{
  background-color:rgba(13, 13, 14, 0.8);
  color:white;
 }
+
+div.Respuestas img{  
+  height:1.5vw;
+  width: auto;    
+}
+
+div.Respuestas input{  
+  font-size: 1.0vw;
+  height:3.5vw;
+  width: auto;    
+}
+
 div.busqueda {
   width:95%;
   padding: 3%;
   font-size: 1.5vw;
 }
-div.Respuestas {
-  padding: 15px;
-}
-div.Respuestas table{
-  border-radius: 1em;
-  width:90%; 
-  background-color: aliceblue; 
-  text-align:center;
-  border:2px solid black;
-  border-collapse: collapse;
-  padding:30px;
-  overflow: hidden;
-  font-size:25px;
-}
-div.Respuestas tr,th,td{
-  border-bottom: 2px solid black; 
-}
 
-div.Respuestas tr:hover{
- background-color:rgba(13, 13, 14, 0.8);
- color:white;
-}
 div.SelecPaginas {
   padding: 1%;
   font-size:1.5vw
