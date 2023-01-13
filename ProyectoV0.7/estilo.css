@@ -39,6 +39,10 @@ section {
   padding-bottom: 10px;
   border-bottom: 2px solid white;
 }
+footer img{
+  width:4vw;
+  height:4vw;
+}
 aside {
   width: 20%;
   height:20 vh;
@@ -64,7 +68,7 @@ ul.Recorridos {
   background-color: black;
   list-style-position: outside;
   list-style-type:square; 
-  list-style-image: url('img/buseta.png');
+  list-style-image: url("img/buseta.png");
 
 }
 ul.Recorridos li::marker{
