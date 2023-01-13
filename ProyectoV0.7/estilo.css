@@ -276,15 +276,16 @@ font-size:1.3vw;
 }
 
 div.tabla{
-  border: 3px solid black;
+  border: 0.2vw solid black;
   border-collapse: collapse;
-  width: 95%;
+  width: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  padding:5px;
-  margin:30px;
+ 
+  margin-left:3vw;
+  margin-right:3vw;
   float: CENTER;
   background-color:rgba(255,255,255,0.5);
 }
@@ -313,8 +314,9 @@ div.formulario{
 
 
 div.contenido{
-  width: 100%;
-  float: left;
+  margin-left:4%;
+  margin-right:4%;
+  float: center;
   background-color: rgba(119, 199, 219, 0.9);
   background: linear-gradient( rgba(31, 31, 74, 0.734) 30%,rgba(255, 255, 255, 0.7),rgba(119, 199, 219, 0.9) 90%);
   padding-bottom: 10px;
@@ -378,7 +380,7 @@ div.derecha{
   float:right;
 }
 div.titulo{
-  width: 90%;
+ 
   color:aliceblue;
   clear: both;
   float:center;
@@ -386,7 +388,8 @@ div.titulo{
   background-color: rgba(13, 13, 14, 0.861);
   font-size: 50px;
   height: 70px;
-  margin: 5px;
+  margin-left: 4%;
+  margin-right: 4%;
 }
 
 div.degradado {
