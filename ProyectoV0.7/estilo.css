@@ -5,7 +5,7 @@ body {
   background-attachment: fixed;
   background-size: 100% 100%;
   background-position: center;
-  padding: vw;
+
 }
 header {
   background-color: rgba(119, 199, 219, 0.9);
@@ -13,10 +13,16 @@ header {
   margin-right: 4%; 
 }
 header img{
-  height:8.5vw;
-  width: auto;
+  height:auto;
+  width: 189px;
   display:flex;
   float:right;
+}
+@media screen and (max-width: 700px) {
+  header img{
+    height:135px;
+    width:140px;
+  }
 }
 article {
   float: center;
@@ -138,8 +144,20 @@ ol.Ubicacion {
 ul.menu {
   list-style: none;
   background-color: rgba(13, 13, 14, 0.861);
-  margin: auto;
-  font-size:1.3vw;
+ 
+  font-size:19px;
+}
+@media screen and (max-width: 700px) {
+  .menu li  {
+    float: none;
+    width: 100%;
+
+  }
+  .menu{
+    font-size: 30px;
+        margin:0;
+    padding: 0;
+  }
 }
 ul.menu li a {
   text-decoration: none;
@@ -166,7 +184,7 @@ div.Respuestas {
 }
 div.Respuestas table{
   width:90%; 
-  font-size:1.4vw;
+  font-size:19px;
   border-radius: 1vw;    
 }
 div.Respuestas tr,th,td{
@@ -195,12 +213,28 @@ div.Respuestas input{
 div.busqueda {
   width:95%;
   padding: 3%;
-  font-size: 1.5vw;
+  font-size: 18px;
 }
-
+@media screen and (max-width: 700px) {
+  aside{
+    display: none;
+  }
+  section{
+    width: 100%;
+  }
+  .busqueda{
+    font-size:1.3vw;
+  }
+  .Preguntas #dif{
+    display:none;
+  }
+  .Preguntas table{
+    font-size:60px;
+  }
+}
 div.SelecPaginas {
   padding: 1%;
-  font-size:1.5vw
+  font-size:25px;
 }
 
 div.SelecPaginas table{
@@ -218,8 +252,40 @@ div.SelecPaginas td:hover{
 div.tematicas{ 
   padding:auto;
   width:80%;
-  font-size: 1.3vw;
+  font-size: 19px;
   }
+  @media screen and (max-width: 1039px) {
+    .tematicas #nul{
+      display:none;
+    }
+    .centrar{
+      display: flex;
+      width:100%;
+      justify-content: center;
+      margin:0;
+      padding:0;
+    
+    }
+  	#ims{display:inline;}
+
+    .contenido{
+      justify-content: center;
+      align-items: center;
+    }
+    .contenido #p1{
+      display:none;
+    }
+    .contenido #imagen{
+      display:none;
+    }
+    
+  }
+    @media screen and (max-width: 555px) {
+    .tematicas #pro{
+      display:none;
+    }
+  }
+
   div.tematicas table{
     border-spacing: 0.6vw;
   }
@@ -245,6 +311,13 @@ footer {
   border-bottom: 0;
   
 }
+    @media screen and (max-width: 755px) {
+    footer{
+    display: block;
+
+    }
+
+    }
 div.contenedor {
   display: flex;
   margin-left: 4%;
@@ -255,6 +328,7 @@ div.Preguntas {
 }
 div.Preguntas table{
   width: 90%;
+ 
 }
 div.Preguntas tr{
   height: 3vw;
@@ -272,7 +346,7 @@ div.Preguntas tr:hover{
 }
 
 #idunico{
-font-size:1.3vw;
+font-size:19px;
 
 }
 
@@ -294,7 +368,7 @@ div.pie{
     padding: 15px;
     height: 10%;
     width: 100%;
-    font-size: 1.2vw;
+    font-size: 15px;
 }
 div.formulario{
   border: 0px solid black;
@@ -325,8 +399,7 @@ div.contenido{
 div.centrar{
   width: 80%;
   height: auto;
-  overflow: hidden;
-
+  overflow: auto;
   margin: auto;
   text-align: center;
  
@@ -336,8 +409,11 @@ div.centrar{
   
    padding-left: 10px;
    padding-right: 10px;
-   
-
+}
+@media screen and (max-width: 400px) {
+  div.centrar caption{
+    font-size: 12px;
+  }
 }
 
 div.centrar#part2{
@@ -348,32 +424,42 @@ div.centrar#part2{
 }
 div.izquierda, .derecha{
   width: 49%;
-  height: auto; overflow: hidden;
-
+  height: auto; 
+  overflow: auto; 
   display: inline-block;
 }
 div.centrar #sub2{
   width:22%;
 }
 div.izquierda{
-  float: left; text-align: left;
+  float: left; 
+  text-align: center;
    display:flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+.derecha #ims{
+  display: none;
+}
 h4.subtitulo{
   background-color: rgba(255, 255, 255, 0.7);
   color: #000000;
+  font-size: 40px;
+   margin-left:1vw;
+   margin-right: 1vw;
 }
 h1.titulo-principal{
   background-color: rgba(255, 255, 255, 0.7);
   color: rgb(0, 0, 0);
+  font-size: 40px;
 }
 
 p.descripcion{
   color: #000000;
   background-color: rgba(255, 255, 255, 0.7);
+  font-size: 27px;
+  text-align: center;
 }
 
 div.derecha{
@@ -448,6 +534,9 @@ div.degradado {
   box-shadow: none;
   }
   
+  #ims{
+    display:none;
+  }
   input.btn {
     border: 2px solid transparent;
     background: #3498DB;
@@ -485,10 +574,10 @@ input:out-of-range {
 main{
   padding: 1em 2em;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 400px) {
   .tabla{
     border : 1px;
-    width : 400px;
+    width : 350px;
     height : 80px;
     overflow: auto;
   }
@@ -498,6 +587,7 @@ main{
   .tabla thead{
     display: none;
   }
+
   .tabla tr{
     margin-bottom: 5px;
     border-bottom: 1px solid #ddd;
@@ -508,6 +598,9 @@ main{
     display: block;
 
   }
-  
+  .centrar{
+    align-items: center;
+  }
+
 }
 
