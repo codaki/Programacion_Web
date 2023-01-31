@@ -46,6 +46,10 @@ h1,h2,h3,h4,h5,h6 {
 	transition: all .3s;
 }
 
+.main-button1 a:hover {
+	background-color: #50c554;
+}
+
 /* Fin Boton ws*/
 
 .main-button a {
