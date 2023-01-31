@@ -794,17 +794,6 @@ footer {
 	text-align: center;
 	background-color: #20232e;
 	padding: 60px 0px;
-	
-
-	display: flex;
-	clear: both;
-	float:center;
-
-	text-align: center;  
-
-
-	height: 50%;
-	border-bottom: 0;
 }
 
 footer ul.social-icons {
@@ -859,12 +848,7 @@ footer p a:hover {
 	color: #f48840;
 }
 
-div.pie{
-    padding: 15px;
-    height: 10%;
-    width: 100%;
-    font-size: 1.2vw;
-}
+
 /* Contact Form */
 
 .contact-us .down-contact,
