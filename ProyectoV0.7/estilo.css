@@ -479,7 +479,8 @@ input:out-of-range {
 main{
   padding: 1em 2em;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 338px) {
+  
   .tabla{
     border : 1px;
     width : 400px;
@@ -497,11 +498,9 @@ main{
     border-bottom: 1px solid #ddd;
     display: block;
   }
-  .ttabla th , .tabla td{
+  .tabla th , .tabla td{
     font-size: 10px;
     display: block;
 
   }
-  
 }
-
