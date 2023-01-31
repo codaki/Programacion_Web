@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Ubuntu" rel="stylesheet">
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="assets/css/login.css">
+
+    <title>Formulario Login y Registro de Usuarios</title>
+</head>
+<body>
+    <div class="contenedor-formularios">
+        <!-- Links de los formularios -->
+        <ul class="contenedor-tabs">
+          <img src="../ProyectoV0.8/assets/images/inicio1.png" alt="logo" width="100%">
+            <li class="tab tab-segunda active"><a href="login.html">Iniciar Sesión</a></li>
+            <li class="tab tab-primera "><a href="Registrarse.html">Registrarse</a></li>
+        </ul>
+
+        <!-- Contenido de los Formularios -->
+        <div class="contenido-tab">
+            <!-- Iniciar Sesion -->
+            <div id="iniciar-sesion">
+                <h1>Iniciar Sesión</h1>
+                <form>
+                    <div class="contenedor-input">
+                        <input type="text" id="username" name="username" placeholder="Usuario">
+
+                    </div>
+
+                    <div class="contenedor-input">
+                        <input type="password" id="password" name="password" placeholder="Contraseña"> 
+                    </div>
+                    <p class="forgot"><a href="#">Se te olvidó la contraseña?</a></p>
+                    <input type="submit" class="button button-block" value="Iniciar Sesión" onclick="validarAdministrador()">
+                </form>
+                <script>
+                    function validarAdministrador() {
+                      var username = document.getElementById("username").value;
+                      var password = document.getElementById("password").value;
+                      if (username == "admin" && password == password) {
+                        alert("Acceso concedido");
+                        window.open("index.html");
+                        window.close();
+                      } else {
+                        alert("Usuario o contraseña incorrectos");
+                      }
+                    }
+                  </script>
+            </div>
+
+   <script src="js/jquery.js"></script>
+   <script src="js/loguin.js"></script>
+
+</body>
+</html>
